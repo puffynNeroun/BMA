@@ -1,0 +1,78 @@
+.services__title{
+    color: rgb(33, 33, 33);
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-bottom: 50px;
+}
+
+.services__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__card--item{
+    box-sizing: border-box;
+    border: 5px solid rgb(33, 33, 33);
+
+    padding: 68px 22px;
+}
+
+.services__card--title{
+    color: rgb(33, 33, 33);
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-bottom: 40px;
+}
+
+.services__card--subtitle{
+    color: rgb(33, 33, 33);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+
+    width: 310px;
+    height: 170px;
+    padding-bottom: 40px;
+}
+
+.services__card--btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background: rgb(33, 33, 33);
+    padding: 23px 30px;
+
+    color: rgb(217, 217, 217);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+
+    transition: 0.7s;
+}
+
+.services__card--btn:hover{
+    background: rgb(91, 197, 121);
+}
+
