@@ -1,0 +1,42 @@
+.footer{
+    padding: 56px 0;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__tel{
+    color: rgb(33, 33, 33);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__text{
+    color: rgb(33, 33, 33);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__mail{
+    color: rgb(33, 33, 33);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
