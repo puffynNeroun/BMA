@@ -1,9 +1,6 @@
 .footer{
     padding: 56px 0;
     box-shadow: 0 0 5px 0 #888888;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 .footer__content{
