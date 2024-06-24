@@ -1,3 +1,7 @@
+.services {
+    padding: 100px;
+}
+
 .services__title{
     color: rgb(33, 33, 33);
     font-family: Arial, sans-serif;
