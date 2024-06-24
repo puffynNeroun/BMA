@@ -1,6 +1,10 @@
 .header {
-    background: transparent;
+    background: rgb(210, 210, 210);
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid rgb(185, 185, 185);
+    box-shadow: 0 0 5px 0 #888888;
 }
 
 .header__container {
@@ -22,11 +26,10 @@
 
 .header__item a{
     color: rgb(33, 33, 33);
-
     font-size: 16px;
     font-weight: 900;
     line-height: 23px;
-    letter-spacing: 0%;
+    letter-spacing: 1px;
     text-align: left;
 }
 
