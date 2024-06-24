@@ -3,5 +3,10 @@
 @import 'grid.css';
 
 
+
+
 @import "components/heade.css";
+@import "components/contact.css";
+
+
 @import "components/footer.css";
