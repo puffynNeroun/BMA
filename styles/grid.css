@@ -4,3 +4,7 @@
     overflow: hidden;
     padding: 0 15px;
 }
+
+body {
+    background: rgb(210, 210, 210);
+}
