@@ -1,0 +1,136 @@
+.portfolioAboutUs {
+
+}
+
+.portfolio {
+    padding: 80px 0;
+}
+
+.portfolio__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.portfolio__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px ;
+}
+
+.portfolio__title {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.portfolio__text {
+    color: rgb(125, 125, 125);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    transition: 0.7s;
+}
+
+.portfolio__text:hover {
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.portfolio__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio__item {
+    padding-left: 30px;
+    position: relative;
+    color: rgb(33, 33, 33);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: capitalize;
+    transition: 0.7s;
+}
+.portfolio__item::before {
+    content: '';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+
+}
+
+.portfolio__item:hover {
+    color: rgb(91, 197, 121);
+}
+.portfolio__links {
+    width: 660px;
+}
+.portfolio__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 30px;
+
+}
+
+.portfolio__products--item {
+    background: rgb(151, 151, 151);
+    height: 170px;
+    transition: 0.7s;
+
+}
+.portfolio__products--item:nth-child(2),
+.portfolio__products--item:nth-child(3){
+    width: 220px;
+}
+
+
+.portfolio__products--item:nth-child(1),
+.portfolio__products--item:nth-child(4) {
+    width: 400px;
+}
+
+.portfolio__products--item:hover {
+    background: rgba(33, 33, 33, 0.77);
+    transform: scale(1.1);
+}
+
+
+.portfolio__more {
+    text-align: end;
+    padding-top: 15px;
+}
+.portfolio__more a{
+    color: rgb(33, 33, 33);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+    letter-spacing: 0;
+    border-bottom: 3px solid black;
+    text-transform: capitalize;
+    transition: color 0.7s, border-bottom 0.5s ease-in-out;
+}
+
+.portfolio__more a:hover {
+    color: rgb(91, 197, 121);
+    border-bottom: 3px solid rgb(91, 197, 121);
+}
