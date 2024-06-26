@@ -1,0 +1,63 @@
+.aboutUs {
+    padding: 80px 0;
+}
+
+.aboutUs__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutUs__image {
+    width: 650px;
+    height: 360px;
+    background: rgb(151, 151, 151);
+    transition: 0.7s;
+}
+
+.aboutUs__image:hover {
+    background: rgba(33, 33, 33, 0.77);
+    transform: scale(1.1);
+}
+
+.aboutUs__content {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+
+}
+
+.aboutUs__title {
+    color: rgb(33, 33, 33);
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 56px;
+    text-align: right;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+
+.aboutUs__title:hover {
+    color: rgb(91, 197, 121);
+}
+
+.aboutUs__text {
+    color: rgb(125, 125, 125);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: right;
+    text-transform: capitalize;
+    transition: 0.7s;
+}
+
+.aboutUs__text:hover {
+    color: rgba(33, 33, 33, 0.8);
+}
