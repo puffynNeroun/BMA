@@ -17,3 +17,20 @@ body {
 section {
     background: transparent;
 }
+
+.button {
+    background: rgb(33, 33, 33);
+    padding: 23px 30px;
+    color: rgb(217, 217, 217);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+
+.button:hover {
+    background: rgb(91, 197, 121);
+}
