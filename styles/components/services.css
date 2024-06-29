@@ -59,24 +59,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-    background: rgb(33, 33, 33);
-    padding: 23px 30px;
-
-    color: rgb(217, 217, 217);
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 28px;
-    letter-spacing: 1px;
-    text-align: left;
-    text-transform: uppercase;
-
-    transition: 0.7s;
-}
-
-.services__card--btn:hover{
-    background: rgb(91, 197, 121);
 }
 

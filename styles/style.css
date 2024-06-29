@@ -4,7 +4,7 @@
 
 
 
-
+@import "./components/swiper.css";
 
 
 @import "./components/heade.css";
@@ -12,6 +12,7 @@
 @import "./components/services.css";
 @import "./components/portfolio.css";
 @import "./components/aboutUs.css";
+@import "./components/primary.css";
 
 
 

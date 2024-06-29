@@ -1,0 +1,84 @@
+.primary {
+    padding-top: 200px;
+}
+
+.primary__container {
+    display: flex;
+    gap: 80px;
+}
+
+.primary__content {
+    width: 540px;
+}
+
+.primary__title {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+
+.primary__subtitle {
+    color: rgb(125, 125, 125);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.primary__text {
+    color: rgb(33, 33, 33);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 1px;
+    padding-bottom: 90px;
+}
+
+.primary__buttons {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.primary__slide {
+    position: relative;
+    padding: 20px;
+    width: 600px;
+}
+
+.primary__slide-item1, .primary__slide-item2 {
+    animation: rotate 10s infinite linear;
+    display: inline-block;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.primary__slide {
+    position: relative;
+    height: 100%;
+    padding-bottom: 80px;
+
+}
+
+.primary__slide-item1 {
+}
+
+.primary__slide-item2 {
+    position: absolute;
+    top: 40%;
+    right: 18%;
+}
+
