@@ -11,10 +11,10 @@ display: flex;
     gap: 30px;
 }
 .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
+
+    padding: 10px;
 }
 .swiper-pagination-bullet-active {
 background: rgb(91, 197, 121);
-
+    box-shadow: 0 0 8px 0 rgb(17, 169, 73);
 }
