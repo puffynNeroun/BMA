@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
@@ -57,7 +58,72 @@
                     </a>
                 </div>
             </div>
-            <div class="primary__slider"></div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="primary__slide">
+                            <div class="primary__slide-item1">
+                                <img src="./img/Icon%20(svg)/Welcome/Large-square.svg" alt="">
+                            </div>
+                            <div class="primary__slide-item2">
+                                <img src="./img/Icon%20(svg)/Welcome/Small%20square.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="primary__slide">
+                            <div class="primary__slide-item1">
+                                <img src="./img/Icon%20(svg)/Welcome/Large-square.svg" alt="">
+                            </div>
+                            <div class="primary__slide-item2">
+                                <img src="./img/Icon%20(svg)/Welcome/Small%20square.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="primary__slide">
+                            <div class="primary__slide-item1">
+                                <img src="./img/Icon%20(svg)/Welcome/Large-square.svg" alt="">
+                            </div>
+                            <div class="primary__slide-item2">
+                                <img src="./img/Icon%20(svg)/Welcome/Small%20square.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="primary__slide">
+                            <div class="primary__slide-item1">
+                                <img src="./img/Icon%20(svg)/Welcome/Large-square.svg" alt="">
+                            </div>
+                            <div class="primary__slide-item2">
+                                <img src="./img/Icon%20(svg)/Welcome/Small%20square.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="primary__slide">
+                            <div class="primary__slide-item1">
+                                <img src="./img/Icon%20(svg)/Welcome/Large-square.svg" alt="">
+                            </div>
+                            <div class="primary__slide-item2">
+                                <img src="./img/Icon%20(svg)/Welcome/Small%20square.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="primary__slide">
+                            <div class="primary__slide-item1">
+                                <img src="./img/Icon%20(svg)/Welcome/Large-square.svg" alt="">
+                            </div>
+                            <div class="primary__slide-item2">
+                                <img src="./img/Icon%20(svg)/Welcome/Small%20square.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
     <section class="services">
@@ -177,6 +243,15 @@
     </div>
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
 </body>
 </html>

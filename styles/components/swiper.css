@@ -1,0 +1,16 @@
+.swiper {
+    width: 600px;
+}
+.swiper-pagination {
+display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+.swiper-pagination-bullet-active {
+background: rgb(91, 197, 121);
+
+}
