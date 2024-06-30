@@ -5,7 +5,7 @@
     width: 100%;
     border-bottom: 2px solid rgb(185, 185, 185);
     box-shadow: 0 0 5px 0 #888888;
-    z-index: 999;
+    z-index: 101;
 }
 
 .header__container {
