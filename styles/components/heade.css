@@ -32,6 +32,12 @@
     line-height: 23px;
     letter-spacing: 1px;
     text-align: left;
+
+    transition: 0.7s;
+}
+
+.header__item a:hover {
+    color: rgb(91, 197, 121);
 }
 
 .header__icons {
