@@ -142,6 +142,21 @@
         </div>
     </section>
     <section class="services">
+        <div class="services__popup popup" id="servicesPopup">
+            <div class="popup__content">
+                <button class="popup__close" id="servicesCloseBtn">×</button>
+                <h2 class="popup__title services__popup__title">landing</h2>
+                <h4 class="services__popup__text">This is a one-page website that encourages the user to take a specific action</h4>
+                <p class="services__popup__price">Price<br/>250$</p>
+                <div class="popup__inputs">
+                    <input type="text" class="popup__input" placeholder="Name">
+                    <input type="tel" class="popup__input" placeholder="Number">
+                </div>
+                <div class="popup__button">
+                    <button class="popup__submit" id="servicesSubmit">Contact</button>
+                </div>
+            </div>
+        </div>
         <div class="services__container container">
             <h2 class="services__title">services</h2>
             <div class="services__cards">
@@ -150,7 +165,7 @@
                     <p class="services__card--subtitle">This is a one-page website that encourages the user to take a
                         specific action</p>
                     <a href="#" class="services__card--btn">
-                        <button class="button">More details</button>
+                        <button id="serviceOpenPopupBtn" class="button">More details</button>
                     </a>
                 </div>
                 <div class="services__card--item">

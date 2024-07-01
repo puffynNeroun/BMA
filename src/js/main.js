@@ -24,39 +24,71 @@ let swiper = new Swiper(".mySwiper", {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const primaryPopup = document.getElementById("primaryPopup"); // Получаем модальное окно
-    const openPopupBtn = document.getElementById("openPopupBtn"); // Кнопка для открытия popup
-    const popupCloseBtn = document.getElementById("popupCloseBtn"); // Кнопка для закрытия popup
-    const popupSubmitBtn = document.getElementById("popupSubmit"); // Кнопка "Contact" внутри popup
+    const primaryPopup = document.getElementById("primaryPopup");
+    const openPopupBtn = document.getElementById("openPopupBtn");
+    const popupCloseBtn = document.getElementById("popupCloseBtn");
+    const popupSubmitBtn = document.getElementById("popupSubmit");
 
-    // Функция для открытия popup
     function openPopup() {
-        primaryPopup.style.display = "flex"; // Отображаем popup
-        document.body.style.overflow = "hidden"; // Запрещаем прокрутку фона
+        primaryPopup.style.display = "flex";
+        document.body.style.overflow = "hidden";
     }
 
-    // Функция для закрытия popup
     function closePopup() {
-        primaryPopup.style.display = "none"; // Скрываем popup
-        document.body.style.overflow = ""; // Разрешаем прокрутку фона
+        primaryPopup.style.display = "none";
+        document.body.style.overflow = "";
     }
 
-    // Обработчики событий для открытия и закрытия popup
+
     openPopupBtn.addEventListener("click", openPopup);
     popupCloseBtn.addEventListener("click", closePopup);
-    popupSubmitBtn.addEventListener("click", closePopup); // Закрываем при отправке формы
+    popupSubmitBtn.addEventListener("click", closePopup);
 
-    // Закрытие popup при клике за его пределами (на затемненный фон)
     primaryPopup.addEventListener("click", function(event) {
         if (event.target === primaryPopup) {
             closePopup();
         }
     });
 
-    // Закрытие popup при нажатии клавиши Esc
+
     document.addEventListener("keydown", function(event) {
         if (event.key === "Escape" && primaryPopup.style.display === "flex") {
             closePopup();
         }
     });
+
+    const servicesPopup = document.getElementById("servicesPopup");
+    const serviceOpenPopupBtn = document.getElementById("serviceOpenPopupBtn");
+    const servicesCloseBtn = document.getElementById("servicesCloseBtn");
+    const servicesSubmit = document.getElementById("servicesSubmit");
+
+    function servicesOpenPopup() {
+        servicesPopup.style.display = "flex";
+        document.body.style.overflow = "hidden";
+    }
+
+    function servicesClosePopup() {
+        servicesPopup.style.display = "none";
+        document.body.style.overflow = "";
+    }
+
+
+    serviceOpenPopupBtn.addEventListener("click", servicesOpenPopup);
+    servicesCloseBtn.addEventListener("click", servicesClosePopup);
+    servicesSubmit.addEventListener("click", servicesClosePopup);
+
+    servicesPopup.addEventListener("click", function(event) {
+        if (event.target === servicesPopup) {
+            servicesClosePopup();
+        }
+    });
+
+
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape" && servicesPopup.style.display === "flex") {
+            servicesClosePopup();
+        }
+    });
 });
+
+
