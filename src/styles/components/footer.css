@@ -1,6 +1,7 @@
 .footer{
     padding: 56px 0;
     box-shadow: 0 0 5px 0 #888888;
+    background: rgb(210, 210, 210);
 }
 
 .footer__content{

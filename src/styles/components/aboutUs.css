@@ -14,7 +14,7 @@
 .aboutUs__image {
     width: 650px;
     height: 360px;
-    background: rgb(151, 151, 151);
+    background: rgba(151, 151, 151, 0.7);
     transition: 0.7s;
 }
 

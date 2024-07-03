@@ -1,4 +1,9 @@
-
+.portfolioAboutUs {
+    background: url("../../img/protfilio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .portfolio {
     padding: 80px 0;
 }
@@ -97,7 +102,7 @@
 }
 
 .portfolio__products--item {
-    background: rgb(151, 151, 151);
+    background: rgba(151, 151, 151, 0.7);
     height: 170px;
     transition: 0.7s;
 
