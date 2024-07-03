@@ -24,20 +24,26 @@
     align-items: center;
     gap: 45px;
     background: rgb(33, 33, 33);
-    padding: 55px;
+    padding: 80px 50px;
 }
 
 
 .contact__input input {
     padding: 15px 30px;
     color: rgb(72, 72, 72);
-
     font-size: 20px;
+    background: rgb(187, 187, 187);
 }
 
+.contact__input input:focus {
+    background: rgb(210, 210, 210);
+}
+.contact__btn {
+    margin-top: 10px;
+}
 .contact__btn button{
     color: rgb(217, 217, 217);
-padding: 23px 30px;
+padding: 13px 80px;
     font-size: 20px;
     font-weight: 900;
     line-height: 28px;
@@ -67,7 +73,7 @@ padding: 23px 30px;
     font-size: 40px;
     font-weight: 900;
     line-height: 56px;
-    letter-spacing: 1%;
+    letter-spacing: 1px;
     text-align: left;
     text-transform: uppercase;
 }
