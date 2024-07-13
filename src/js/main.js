@@ -92,3 +92,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+const headerNav = document.getElementById('headerNav')
+const headerBurger = document.getElementById('headerBurger')
+
+headerBurger.addEventListener('click', () => {
+    headerNav.classList.toggle('active')
+})
+
+
