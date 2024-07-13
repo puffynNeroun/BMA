@@ -1,8 +1,6 @@
-.services {
-    padding: 100px;
-}
 
-.services__title{
+
+.services__title {
     color: rgb(33, 33, 33);
     font-family: Arial, sans-serif;
     font-size: 40px;
@@ -11,23 +9,36 @@
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
-
     padding-bottom: 50px;
+    transition: 0.7s;
 }
 
-.services__cards{
+.services__title:hover {
+    color: rgb(91, 197, 121);
+}
+
+.services__cards {
+    padding: 60px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.services__card--item{
+.services__card--item {
     box-sizing: border-box;
     border: 5px solid rgb(33, 33, 33);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
     padding: 68px 22px;
+    transition: transform 0.7s ease;
 }
 
-.services__card--title{
+.services__card--item:hover {
+    transform: scale(1.05);
+}
+
+.services__card--title {
     color: rgb(33, 33, 33);
     font-family: Arial, sans-serif;
     font-size: 32px;
@@ -37,10 +48,9 @@
     text-align: center;
     text-transform: uppercase;
 
-    padding-bottom: 40px;
 }
 
-.services__card--subtitle{
+.services__card--subtitle {
     color: rgb(33, 33, 33);
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -52,10 +62,9 @@
 
     width: 310px;
     height: 170px;
-    padding-bottom: 40px;
 }
 
-.services__card--btn{
+.services__card--btn {
     display: flex;
     align-items: center;
     justify-content: center;

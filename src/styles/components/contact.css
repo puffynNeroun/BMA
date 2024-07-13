@@ -1,17 +1,22 @@
-.contact {
-    padding: 100px 0;
-}
-.contact__title {
-    padding-bottom: 100px;
-    color: rgb(33, 33, 33);
 
+
+.contact__title {
+
+    color: rgb(33, 33, 33);
     font-size: 40px;
     font-weight: 900;
     line-height: 56px;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.7s;
 }
+
+.contact__title:hover {
+    color: rgb(91, 197, 121);
+}
+
 .contact__content {
+    padding-top: 100px;
     display: flex;
     align-items: center;
     gap: 140px;
@@ -36,14 +41,16 @@
 }
 
 .contact__input input:focus {
-    background: rgb(210, 210, 210);
+    background: rgb(227, 227, 227);
 }
+
 .contact__btn {
     margin-top: 10px;
 }
-.contact__btn button{
+
+.contact__btn button {
     color: rgb(217, 217, 217);
-padding: 13px 80px;
+    padding: 13px 80px;
     font-size: 20px;
     font-weight: 900;
     line-height: 28px;
@@ -56,8 +63,8 @@ padding: 13px 80px;
     transition: 0.3s;
 }
 
-.contact__btn button:hover{
-    background-color:  rgb(217, 217, 217);
+.contact__btn button:hover {
+    background-color: rgb(217, 217, 217);
     color: rgb(33, 33, 33);
 }
 
@@ -77,6 +84,7 @@ padding: 13px 80px;
     text-align: left;
     text-transform: uppercase;
 }
+
 .contact__paragraph_end {
     text-align: end;
 }

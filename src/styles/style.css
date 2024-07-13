@@ -14,7 +14,6 @@
 @import "./components/aboutUs.css";
 @import "./components/primary.css";
 @import "./components/popup.css";
-
-
-
 @import "./components/footer.css";
+
+@import "media.css";

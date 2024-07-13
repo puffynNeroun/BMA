@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .primary__content {
+        width: auto;
+    }
+    .primary__title {
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .primary__text {
+        font-size: 25px;
+        line-height: 130%;
+        padding-bottom: 60px;
+    }
+    .primary__buttons {
+        gap: 30px;
+    }
+    .primary__slide-item1 img{
+        width: 300px;
+    }
+    .primary__slide-item2  {
+        top: 30%;
+        right: 40%;
+    }
+    .swiper-pagination {
+        gap: 20px;
+    }
+    .swiper-pagination-bullet {
+        padding: 7px;
+    }
+}
+
+@media (max-width: 992px) {
+    .primary__container {
+        gap: 10px;
+    }
+    .primary__slide-item1 img {
+        width: 250px;
+    }
+    .primary__slide-item2 {
+        right: 45%;
+    }
+}

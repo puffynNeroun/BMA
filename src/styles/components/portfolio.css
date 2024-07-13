@@ -5,7 +5,7 @@
     background-position: center;
 }
 .portfolio {
-    padding: 80px 0;
+    padding-bottom: 80px;
 }
 
 .portfolio__container {
@@ -64,7 +64,6 @@
     padding-left: 30px;
     position: relative;
     color: rgb(33, 33, 33);
-    font-family: Arial;
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;

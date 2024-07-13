@@ -1,0 +1,18 @@
+@media (max-width: 1200px) {
+    .services__title {
+        padding-bottom: 30px;
+    }
+    .services__card--item {
+        width: 30%;
+
+    }
+    .services__card--title {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .services__card--subtitle {
+        font-size: 18px;
+        height: auto;
+        width: auto;
+    }
+}
