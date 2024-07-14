@@ -1,0 +1,60 @@
+@media (max-width: 992px) {
+    .contact {
+        padding: 40px 0;
+    }
+    .contact__title {
+        font-size: 35px;
+    }
+    .contact__content {
+        padding-top: 30px;
+    }
+    .contact__form {
+        padding: 60px 30px;
+        gap: 25px;
+    }
+
+    .contact__input input{
+        padding: 12px 15px;
+    }
+
+    .contact__btn {
+        margin-top: 30px;
+    }
+
+    .contact__btn button {
+        padding: 10px 70px;
+    }
+
+    .contact__paragraphs {
+        display: none;
+    }
+    .contact__paragraph {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact__title {
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact__title {
+        font-size: 25px;
+    }
+
+    .contact__content {
+        padding-top: 20px;
+    }
+
+    .contact__form {
+        padding: 45px 15px;
+    }
+
+    .contact__input input {
+        padding: 10px 3px;
+        font-size: 19px;
+    }
+}
