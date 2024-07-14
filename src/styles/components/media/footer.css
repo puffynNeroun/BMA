@@ -31,15 +31,21 @@
 }
 
 @media (max-width: 576px) {
+    .footer__content {
+        flex-direction: column;
+    }
     .footer__tel{
         font-size: 9px;
+        width: auto;
     }
 
     .footer__text {
         font-size: 9px;
+        width: auto;
     }
 
     .footer__mail {
         font-size: 9px;
+        width: auto;
     }
 }

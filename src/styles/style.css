@@ -7,7 +7,7 @@
 @import "./components/swiper.css";
 
 
-@import "./components/heade.css";
+@import "components/header.css";
 @import "./components/contact.css";
 @import "./components/services.css";
 @import "./components/portfolio.css";
