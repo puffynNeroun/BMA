@@ -3,6 +3,9 @@
 @import "./components/media/services.css";
 @import "./components/media/contact.css";
 @import "./components/media/footer.css";
+@import "./components/media/portfolio.css";
+@import "./components/media/aboutUs.css";
+@import "./components/media/popup.css";
 
 
 
@@ -31,5 +34,9 @@
     .button {
         padding: 10px 22px;
         font-size: 12px;
+    }
+    .p100 {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }

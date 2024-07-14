@@ -23,6 +23,12 @@ let swiper = new Swiper(".mySwiper", {
     }
 });
 
+let swiper2 = new Swiper(".mySwiper2", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    freeMode: true,
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     const primaryPopup = document.getElementById("primaryPopup");
     const openPopupBtn = document.getElementById("openPopupBtn");

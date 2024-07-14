@@ -1,0 +1,11 @@
+@media (max-width: 568px) {
+    .popup {
+        padding: 0 5px;
+    }
+    .popup__content {
+        padding: 30px 20px;
+    }
+    .popup__title {
+        font-size: 25px;
+    }
+}

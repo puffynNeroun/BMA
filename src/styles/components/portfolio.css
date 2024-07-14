@@ -146,3 +146,26 @@
     color: rgb(91, 197, 121);
     border-bottom: 3px solid rgb(91, 197, 121);
 }
+.portfolio__swiper {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.portfolio__slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(151, 151, 151, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.portfolio__slide img {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    .portfolio__container {
+        flex-direction: column;
+    }
+
+    .portfolio__products--item {
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolio__links {
+        display: none;
+    }
+
+    .portfolio__swiper {
+        display: block !important;
+    }
+
+
+    .portfolio__content {
+        width: auto;
+        gap: 20px;
+    }
+
+    .portfolio__title {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .portfolio__title {
+        font-size: 25px;
+    }
+    .portfolio__text {
+        font-size: 15px;
+    }
+    .portfolio__item {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+}
